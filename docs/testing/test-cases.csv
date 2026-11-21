@@ -1,0 +1,15 @@
+id,hu,tipo,escenario,resultado_esperado,estado
+TC-AUTH-01,HU-001,integracion,Login válido,Token y perfil sin hash,NO EJECUTADO
+TC-AUTH-02,HU-001,seguridad,Login inválido o token ausente,401 sin fuga de información,NO EJECUTADO
+TC-AUTH-03,HU-001,seguridad,Acceso sin rol,403,NO EJECUTADO
+TC-ADMIN-01,HU-002,funcional,Alta promotor,Usuario activo consultable,NO EJECUTADO
+TC-STORE-01,HU-003,funcional,Alta tienda,Tienda consultable,NO EJECUTADO
+TC-PRODUCT-01,HU-004,funcional,Alta variante,Variante consultable,NO EJECUTADO
+TC-ASG-01,HU-005,integracion,Asignar promotor,Asignación persistida,NO EJECUTADO
+TC-ASG-02,HU-005,seguridad,Consultar tienda ajena,403 o lista filtrada,NO EJECUTADO
+TC-MOB-01,HU-006,manual,Ver tiendas en Flutter,Solo tiendas autorizadas,NO EJECUTADO
+TC-REC-01,HU-007,integracion,Recepción válida,Cabecera y detalles persistidos,NO EJECUTADO
+TC-REC-02,HU-007,seguridad,Recepción en tienda ajena,403 sin persistencia,NO EJECUTADO
+TC-REC-03,HU-007,integracion,Fallo detalle,Rollback completo,NO EJECUTADO
+TC-REC-04,HU-008,funcional,Consultar receptiones,Resultados filtrados por permisos,NO EJECUTADO
+TC-AUD-01,HU-016,integracion,Auditoría recepción,Actor y fecha registrados,NO EJECUTADO
