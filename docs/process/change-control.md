@@ -6,3 +6,5 @@
 4. Record deviations and request approval before changing the spec, authorization policy or database relationships.
 5. Use separate commits and PRs in each repository; link the same HU identifier and report.
 6. Record actual commands, test outcomes and deployment status. Do not claim remote deployments or Git commits before they exist.
+
+7. Follow autonomy-policy.md; record approved decisions in the canonical spec/ADR before resuming. Do not require an external consultation or approval for routine authorized work. At gates or escalation export evidence under review-package-policy.md.

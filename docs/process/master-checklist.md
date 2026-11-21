@@ -11,7 +11,7 @@
 - [ ] Create private `brand-promoter-mobile` with local instructions.
 - [ ] Create multi-root workspace and check all four repositories.
 - [ ] Configure `.gitignore`, `.env.example`, Git conventions.
-## Scaffolding (only after Prompt 00 approval)
+## Scaffolding (only after Gate 1 approval; Prompt 00A for existing v0.3.0 sessions)
 - [ ] Initialize NestJS and verify build/lint.
 - [ ] Initialize Next.js and verify build/lint.
 - [ ] Initialize Flutter and run initial test.

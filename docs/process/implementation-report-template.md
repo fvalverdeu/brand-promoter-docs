@@ -35,3 +35,6 @@
 - Reviewer approval: Pending
 
 **Rule:** Never claim a test passed unless it was actually run and its result observed. One report per completed or blocked HU, not per prompt.
+
+
+This is an internal English implementation record, not a mandatory ChatGPT handoff. Save a linked record in `docs/testing/evidence/` per completed or blocked HU (unique HU/date filename); continue authorized work under autonomy-policy.md. At gates/escalation use the Spanish external report template instead of requiring the developer to copy chat output.

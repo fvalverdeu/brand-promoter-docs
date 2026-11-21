@@ -8,4 +8,4 @@ Implement only the approved bootstrap for the four independent repositories. Bef
 
 Do not implement HU-001/005/007 yet. No Firebase, Cloud Storage, Docker or Container Registry in Sprint 0.
 
-Provide per-repository summary: files created, commands run, observed test results, pending work, `git status`, proposed commits. If a step fails, stop and consult before high-impact remedies.
+Capture baseline SHAs before edits. Record per-repository commands, observed tests, pending work and proposed commits in English. Resolve routine issues under autonomy-policy.md; escalate only at approval boundaries or gates. After bootstrap, proceed only within explicitly authorized scope; do not implement HUs under this bootstrap-only prompt.

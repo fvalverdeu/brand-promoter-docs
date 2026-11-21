@@ -6,5 +6,8 @@ This repository is the source of truth for scope, requirements, Scrum, specs, AD
 - Use English for technical identifiers, filenames, API routes, DB objects, branches and commits; Use Spanish for business-facing specifications and UI copy. Follow the bilingual glossary and language policy in the documentation repository.
 - Follow `../brand-promoter-docs/docs/process/naming-conventions.md`, `sdd-copilot.md`, `review-gates.md`, and `change-control.md`.
 - Approved specs are the source of truth. Do not silently change them.
-- For a completed or blocked HU, report real commands and test evidence using the implementation report template.
+- For each completed or blocked HU, persist an English implementation record using the template; do not require a chat handoff.
 - Escalate cross-repository breaking contracts, schema/auth changes, new infrastructure and persistent defects.
+
+## Autonomous workflow (v0.4.0)
+Read the canonical `brand-promoter-docs/docs/process/autonomy-policy.md`, `review-package-policy.md`, `review-gates.md`, `language-policy.md` and `sdd-copilot.md` before work. Continue authorized ready items without per-HU prompts. At gates or escalation, create an external ZIP with Spanish report and Git evidence using `brand-promoter-docs/.github/skills/generate-review-package/SKILL.md` (read directly if not discoverable). Stop for approval. Never export secrets or alter the real Git index for evidence. No implementation before Gate 1 approval.

@@ -1,6 +1,6 @@
 # Language policy
 **Status:** Accepted · 2026-11-21 · Applies to all four repositories.
-- Engineering: English, including README, CHANGELOG, architecture, ADRs, technical specs, code/comments, identifiers, automated tests, prompts, skills, Copilot instructions, development conventions and technical reports.
+- Engineering: English, including README, CHANGELOG, architecture, ADRs, technical specs, code/comments, identifiers, automated tests, prompts, skills, Copilot instructions, development conventions and internal technical implementation records. External review/escalation reports and approval questions are in Spanish; diffs, commands, logs and identifiers retain their original language.
 - Business: Spanish, including RF/RNF, product and sprint backlogs, user stories, acceptance criteria, functional specifications and functional test cases/scenarios.
 - Academic deliverables, prototypes and user-facing UI: Spanish.
 - Domain glossary: bilingual; preserve existing technical identifiers until a change is approved.

@@ -1,0 +1,8 @@
+# Prompt 00A — Adopt v0.4.0 after Prompt 00
+Read the updated repository instructions, autonomy-policy.md, review-package-policy.md, review-gates.md, language-policy.md, sdd-copilot.md, change-control.md, git-workflow.md and review skill. Verify actual access to all four repositories and the new files. Reuse the previous Prompt 00 findings from this conversation if accessible; explicitly identify missing context and re-inspect only what is necessary (if unavailable, reconstruct read-only Gate 1 planning from Prompt 00). Do not claim prior results you cannot see.
+
+Reconcile previous plan with the current policies, open ADR decisions, current repository state and elapsed MVP milestone. Preserve scope, stable identifiers and approved architecture. Separate facts from proposals; identify remaining blocking decisions, alternatives, recommendations, exact proposed commands, compatible versions, per-repo plan, estimates and replanning. Do not change dates or approve decisions yourself.
+
+Produce REVIEW-0001-bootstrap (or next unused ID) outside the workspace using the review-package policy and skill. Spanish report, manifest, safe per-repo diffs and relevant evidence. Capture current HEAD/status as observed snapshot; if reviewing v0.4.0 changes identify actual predecessor commits, never guess. Empty diffs are legitimate if clean; record baseline and status. Check coverage, exclusions and secrets, validate ZIP and return its absolute path and short Spanish summary. Do not ask the developer to paste your prior report into ChatGPT.
+
+No repository edits, real index changes, installs, scaffolding, commits, push or deployment. Only external evidence writes are allowed. Stop at Gate 1 and wait for explicit approval. Do not execute Prompt 01 yet.

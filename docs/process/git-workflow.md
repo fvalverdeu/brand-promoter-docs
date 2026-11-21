@@ -9,3 +9,6 @@ Each repository: protect `main` where possible; branches `feature/HU-007-recepti
 7. For cross-repository stories, link issues/PRs and preserve API compatibility.
 
 Do not copy credentials, `.env` or private histories from Tiens/IoT.
+
+## Review baseline
+Capture full HEAD SHA, branch and status before each authorized work item/batch. Prefer clean worktrees; do not mix unrelated changes. Preserve baseline through local commits. Follow review-package-policy.md for temporary-index capture and external export. Do not stage, commit, push or merge merely to build a review package.

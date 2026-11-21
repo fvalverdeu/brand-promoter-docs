@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.4.0] — 2026-11-21
+- Adopted bounded autonomous execution, Spanish external escalation reports and Git evidence capture with temporary index.
+- Added review skill, script, transition prompt and review policies; updated all four repository instructions.
+- Preserved scope, architecture, IDs, approvals and pending schedule. Script requires local PowerShell validation before operational reliance.
+
 ## [0.3.0] — 2026-11-21
 - Standardized engineering documentation and AI instructions in English; retained Spanish functional and academic content.
 - Added language policy and bilingual glossary without renaming existing identifiers.

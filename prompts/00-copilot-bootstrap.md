@@ -14,6 +14,6 @@ Act as a senior architect and quality lead. The VS Code multi-root workspace con
 
 **Prohibitions:** no dependency installation, application creation, file edits, commits/push, Container Registry/Firebase/Cloud Storage, monorepo or microservices. Read-only inspection only. Do not assert tests were run if not observed.
 
-**Output:** actual status of four repositories; findings; unresolved decisions; per-repository plan; proposed commands (not executed); proposed tests; blocking questions; replanning proposal. Technical report in English; business validation questions may be in Spanish.
+**Output:** actual status of four repositories; findings; unresolved decisions; per-repository plan; proposed commands (not executed); proposed tests; blocking questions; replanning proposal. Generate the Gate 1 external review package in Spanish under review-package-policy.md. Read-only repository inspection; external evidence writes are permitted. No historical baseline guesses.
 
 **Stop and wait for approval.**
