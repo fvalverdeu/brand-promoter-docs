@@ -1,5 +1,7 @@
 # Sprint Backlog — plantilla de seguimiento
 
+> Nota v0.3.0 (21/11/2026): fechas originales conservadas como línea base histórica; replanificación pendiente de aprobación.
+
 Estados permitidos: TODO / IN_PROGRESS / BLOCKED / REVIEW / DONE. **Todos inicialmente TODO.**
 
 | ID | Trabajo | Repo | Dependencia | Estado | Evidencia |

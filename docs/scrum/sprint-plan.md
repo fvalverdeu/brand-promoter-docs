@@ -1,5 +1,7 @@
 # Sprint 0 y Sprint 1
 
+> Nota v0.3.0 (21/11/2026): fechas originales conservadas como línea base histórica; replanificación pendiente de aprobación.
+
 ## Sprint 0 — 03 al 04/11/2026 (timebox orientativo)
 **Objetivo:** base mínima documentada y repositorios listos, no desarrollar todo el sistema.
 **Entregables:** cuatro repos privados, workspace, instrucciones Copilot, backlog y specs MVP, modelo conceptual, plan de pruebas, bootstrap local aprobado.

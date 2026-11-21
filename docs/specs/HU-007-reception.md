@@ -13,7 +13,7 @@ Como promotor asignado, quiero registrar productos y cantidades recibidas para c
 - CA6: recepción aparece en consulta autorizada.
 - CA7: ubicación física **no es obligatoria** en MVP.
 
-## Ejemplo de solicitud (borrador)
+## Request example (draft)
 ```json
 {"storeId":"uuid","receivedAt":"2026-11-05T15:00:00-05:00","items":[{"productVariantId":"uuid","quantity":5}]}
 ```
@@ -39,8 +39,8 @@ Scenario: Revertir operación fallida
   Then la transacción revierte la cabecera y todos los detalles
 ```
 
-## Pruebas
-TC-REC-01 válido; TC-REC-02 tienda no asignada; TC-REC-03 rollback; TC-REC-04 consulta. Integración con PostgreSQL real de prueba, no solo mocks.
+## Technical verification
+TC-REC-01 valid; TC-REC-02 unassigned store; TC-REC-03 rollback; TC-REC-04 consultation. Integration with real test PostgreSQL, not just mocks.
 
 ## Fuera de alcance
 Ubicaciones, fotos, escaneo, movimientos de salida, stock oficial, edición/anulación de recepción.

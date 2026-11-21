@@ -5,7 +5,7 @@
 - Official product name: **Brand Promoter Management System**.
 - Technical prefix: **`brand-promoter`**; repositories: `brand-promoter-docs`, `brand-promoter-api`, `brand-promoter-web`, `brand-promoter-mobile`.
 - Use English for repository and directory names, technical filenames, code identifiers, database objects, API resources, branches, commits, PR titles and developer-facing technical documentation.
-- Spanish is permitted for business requirements, user stories, acceptance criteria, academic deliverables and user-visible interface text. Do not translate established business concepts mechanically; document exceptions in the domain glossary.
+- Spanish is required for business requirements, user stories, acceptance criteria, academic deliverables and user-visible interface text. Follow `language-policy.md`. Do not translate established business concepts mechanically; document exceptions in the domain glossary.
 - TypeScript classes/interfaces/enums: `PascalCase`; functions/variables/properties: `camelCase`; constants and enum values: `UPPER_SNAKE_CASE` where applicable; filenames/directories: `kebab-case`.
 - PostgreSQL tables/columns: `snake_case`, use one consistent convention across migrations; Prisma model names: singular `PascalCase`, map names when necessary.
 - REST resources: plural `kebab-case` (`/api/v1/receptions`, `/api/v1/store-assignments`); do not add the project prefix to every endpoint.

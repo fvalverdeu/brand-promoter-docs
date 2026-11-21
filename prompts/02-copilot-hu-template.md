@@ -1,12 +1,10 @@
-# Prompt plantilla — Implementación por HU
+# Prompt template — Implementation per HU
+Target HU: **[HU-ID]**. Affected repositories: **[REPOS]**. Spec: `brand-promoter-docs/docs/specs/[FILE].md`.
+1. Verify actual access to spec, DoR/DoD, ADRs, contract and matrix. Do not implement if required context is missing.
+2. Restate acceptance criteria and scenarios; flag ambiguity and dependencies.
+3. Present per-repository change and test plan (unit/integration/E2E) for approval.
+4. After approval, implement API/contract first, then client(s), in small changes with role/store authorization.
+5. Run tests, lint, build, review Git and provide evidence. Never mark an unexecuted test as passing.
+6. Update matrix, HU status and linked PRs.
 
-HU objetivo: **[HU-ID]**. Repos afectados: **[REPOS]**. Spec: `brand-promoter-docs/docs/specs/[ARCHIVO].md`.
-
-1. Verifica acceso real a la spec, DoR/DoD, ADRs, contrato y matriz. Si falta algo, no implementes.
-2. Repite CA y escenarios; señala ambigüedades y dependencias.
-3. Presenta plan de cambios por repositorio y tests (unit/integration/E2E) para aprobación.
-4. Tras aprobación, implementa API y contrato primero; luego cliente(s), en cambios pequeños y con autorización por rol/tienda.
-5. Ejecuta tests, lint, build, revisa Git y presenta evidencia. Nunca marques un test como aprobado sin ejecutarlo.
-6. Actualiza matriz, estado de HU y PRs cruzados.
-
-No agregues funcionalidades fuera de la spec. No hagas push/deploy sin permiso.
+No out-of-spec features. No push/deploy without permission.

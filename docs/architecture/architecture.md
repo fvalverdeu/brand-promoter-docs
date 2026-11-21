@@ -1,26 +1,24 @@
-# Arquitectura de software — C4 nivel 2 (texto)
-
+# Software architecture — C4 level 2 (text)
 ```mermaid
 flowchart TB
- P[Promotor] --> M[Flutter · Android]
- A[Administrador / Supervisor] --> W[Next.js · Backoffice]
- M -->|HTTPS REST JSON| API[NestJS · API REST]
+ P[Promoter] --> M[Flutter · Android]
+ A[Administrator / Supervisor] --> W[Next.js · Backoffice]
+ M -->|HTTPS REST JSON| API[NestJS · REST API]
  W -->|HTTPS REST JSON| API
  API -->|Prisma ORM| DB[(PostgreSQL)]
 ```
+- **API:** authority for identity, permissions, validation and rules.
+- **Web:** administrative interface; do not duplicate backend authorization rules.
+- **Mobile:** promoter operations, data restricted to authorized stores.
+- **Prisma:** library within the NestJS process, not a separate C4 container.
+- **OpenAPI:** technical contract generated/published by the API; Flutter and web consume a pinned version, not invented contracts.
+- **Repositories:** independent; coordinate changes by HU and linked issues.
 
-- **API**: fuente de verdad de identidad, permisos, validación y reglas.
-- **Web**: interfaz administrativa; no duplicar reglas de autorización del backend.
-- **Móvil**: operaciones de promotor, datos únicamente de tiendas autorizadas.
-- **Prisma**: biblioteca en el proceso NestJS; no es contenedor C4 independiente.
-- **OpenAPI**: contrato técnico publicado/generado desde API; clientes Flutter y web consumen versión fijada, no contratos inventados.
-- **Repos**: separados; cambios coordinados por HU e issue cruzado.
+## API layers
+`controller` (HTTP/DTO) → `service` (rules/authorization) → `repository/Prisma` (persistence). Initial modules: auth, users, stores, products, assignments, receptions.
 
-## Capas API
-`controller` (HTTP/DTO) → `service` (reglas/authorization) → `repository/Prisma` (persistencia). Módulos iniciales: auth, users, stores, products, assignments, receptions.
+## Security
+Signed JWT, expiration validation, secure hashing, role guards and DB-backed store assignment checks on every protected operation. Never trust a client-supplied `userId` as the actor.
 
-## Seguridad
-JWT firmado, validación de expiración, hash seguro, guards por rol y comprobación de asignación de tienda desde DB en cada operación protegida. Nunca confiar en `userId` aportado por el cliente como actor.
-
-## Entornos
-Local primero; demo reproducible según disponibilidad. Infraestructura remota no seleccionada. No incluir registry ni Cloud Storage como dependencias MVP.
+## Environments
+Local first; reproducible demo subject to availability. Remote infrastructure is not selected. No registry or Cloud Storage as MVP dependencies.

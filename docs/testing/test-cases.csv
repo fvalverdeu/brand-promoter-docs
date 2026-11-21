@@ -11,5 +11,5 @@ TC-MOB-01,HU-006,manual,Ver tiendas en Flutter,Solo tiendas autorizadas,NO EJECU
 TC-REC-01,HU-007,integracion,Recepción válida,Cabecera y detalles persistidos,NO EJECUTADO
 TC-REC-02,HU-007,seguridad,Recepción en tienda ajena,403 sin persistencia,NO EJECUTADO
 TC-REC-03,HU-007,integracion,Fallo detalle,Rollback completo,NO EJECUTADO
-TC-REC-04,HU-008,funcional,Consultar receptiones,Resultados filtrados por permisos,NO EJECUTADO
+TC-REC-04,HU-008,funcional,Consultar recepciones,Resultados filtrados por permisos,NO EJECUTADO
 TC-AUD-01,HU-016,integracion,Auditoría recepción,Actor y fecha registrados,NO EJECUTADO

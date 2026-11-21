@@ -10,7 +10,7 @@ Estado: **propuesto** hasta validación de reglas de negocio con Samantha. Prior
 | RF-05 | F | Asignar y consultar promotores por tienda | M | Propuesto |
 | RF-06 | F | Mostrar en móvil las tiendas autorizadas del promotor | M | Propuesto |
 | RF-07 | F | Registrar recepción con uno o más detalles y cantidades positivas | M | Propuesto |
-| RF-08 | F | Consultar receptiones desde móvil y/o backoffice según permisos | M | Propuesto |
+| RF-08 | F | Consultar recepciones desde móvil y/o backoffice según permisos | M | Propuesto |
 | RF-09 | F | Consultar existencias operativas con reglas de cálculo documentadas | S | Pendiente definición |
 | RF-10 | F | Definir ubicaciones físicas y asignar mercadería a ubicaciones | S | Pendiente definición |
 | RF-11 | F | Registrar movimientos internos y salidas, con trazabilidad | S | Pendiente definición |

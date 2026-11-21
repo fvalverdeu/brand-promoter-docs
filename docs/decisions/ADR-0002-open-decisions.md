@@ -1,18 +1,17 @@
-# Registro de decisiones abiertas
-
-| ID | Tema | Propuesta provisional | Bloquea |
+# Open decision register
+| ID | Topic | Provisional proposal | Blocks |
 |---|---|---|---|
-| DEC-01 | Identificación de variante | UUID interno; SKU externo opcional | modelo variante |
-| DEC-02 | Roles y alta inicial | admin, supervisor, promotor; seed admin solo local | HU-001/002 |
-| DEC-03 | Política store-assignmentes | varias tiendas por promotor, historial sin borrado físico | HU-005 |
-| DEC-04 | Recepción: fecha real | fecha/hora informada y fecha de registro separadas | HU-007 |
-| DEC-05 | Recepción: correcciones | no editar/anular en MVP; backlog SIDET | HU-007 |
-| DEC-06 | Login y recuperación | email + contraseña; recuperación fuera MVP | HU-001 |
-| DEC-07 | Catálogo y tamaños | calzado, modelo + talla, color opcional | HU-004 |
-| DEC-08 | Offline | solo online MVP | Flutter |
-| DEC-09 | Ubicación física | futura entidad por tienda; no obligatoria en recepción | SIDET |
-| DEC-10 | Datos de ventas | solo avances reportados; sin integración POS | SIDET |
-| DEC-11 | Hosting demo | no decidido; demostración local aceptable si reproducible | despliegue |
-| DEC-12 | Container Registry | evaluar durante SIDET mediante spike/ADR | no bloquea MVP |
+| DEC-01 | Variant identification | Internal UUID; optional external SKU | Variant model |
+| DEC-02 | Roles and initial provisioning | Admin, supervisor, promoter; local-only admin seed | HU-001/002 |
+| DEC-03 | Assignment policy | Multiple stores per promoter; history without physical deletion | HU-005 |
+| DEC-04 | Reception event date | Reported date/time separate from registration date | HU-007 |
+| DEC-05 | Reception corrections | No editing/cancellation in MVP; SIDET backlog | HU-007 |
+| DEC-06 | Login and recovery | Email + password; recovery outside MVP | HU-001 |
+| DEC-07 | Catalog and sizes | Footwear, model + size, optional color | HU-004 |
+| DEC-08 | Offline | Online only in MVP | Flutter |
+| DEC-09 | Physical location | Future store-scoped entity; not required for reception | SIDET |
+| DEC-10 | Sales data | Reported progress only; no POS integration | SIDET |
+| DEC-11 | Demo hosting | Undecided; reproducible local demo acceptable | Deployment |
+| DEC-12 | Container Registry | Evaluate during SIDET via spike/ADR | Does not block MVP |
 
-No transformar propuestas provisionales en requisitos confirmados sin validación. Responsable de decisión: usuario; Samantha valida reglas de negocio.
+Do not turn provisional proposals into confirmed requirements without validation. The developer owns decisions; Samantha validates business rules.

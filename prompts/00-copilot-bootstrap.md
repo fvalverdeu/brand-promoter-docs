@@ -1,21 +1,19 @@
-# Prompt 00 — Inspección y plan, SIN implementar
+# Prompt 00 — Inspection and planning, NO implementation
+Act as a senior architect and quality lead. The VS Code multi-root workspace contains four independent Git repositories: `brand-promoter-docs`, `brand-promoter-api`, `brand-promoter-web`, `brand-promoter-mobile`.
 
-Actúa como arquitecto senior y responsable de calidad. Estamos trabajando en VS Code con un workspace multi-root que contiene cuatro repositorios Git **independientes**: `brand-promoter-docs`, `brand-promoter-api`, `brand-promoter-web`, `brand-promoter-mobile`.
+**Goal:** prepare Sprint 0 without coding. Approved stack: Flutter, Next.js + TypeScript, NestJS + TypeScript, PostgreSQL + Prisma. Original MVP milestone: 2026-11-15; it has elapsed. Replanning is pending approval.
 
-**Objetivo:** preparar Sprint 0 sin programar todavía. Stack aprobado: Flutter, Next.js + TypeScript, NestJS + TypeScript, PostgreSQL + Prisma. Hito MVP: 15/11/2026.
+1. Confirm actual access to repositories and directories; do not assume access based on workspace configuration.
+2. Inspect `git status`, branches and existing files in each repository without changes.
+3. Read the docs README, MVP scope, RF/RNF, traceability matrix, backlog, ADRs, DoR/DoD, architecture and HU-001/005/007 specs.
+4. Identify open decisions blocking scaffolding, security, model or contracts; do not invent answers.
+5. Propose a bootstrap plan per repository: commands, compatible supported/LTS versions where applicable, files, validations and cross-repository dependencies. Preserve independent pipelines and deployments. Account for existing README and `.github` files: propose safe scaffolding/merge steps without overwriting them.
+6. Propose OpenAPI generation from NestJS and pinned client contracts for web/Flutter; do not copy models manually.
+7. Provide ordered checklist, risks and indicative effort in hours; assess the elapsed schedule and propose replanning without editing dates or docs.
+8. Verify ADR-0003, naming conventions, language policy, bilingual glossary, SDD workflow, review gates, change control and implementation report template. Preserve stable IDs and the canonical documentation repository.
 
-1. Confirma qué carpetas/repos realmente puedes leer. No asumas acceso por el solo hecho de estar en el workspace.
-2. Inspecciona `git status`, ramas y archivos existentes de cada repo, sin modificar.
-3. Lee en `brand-promoter-docs` el README, alcance MVP, RF/RNF, matriz, backlog, ADRs, DoR/DoD, arquitectura y specs HU-001/005/007.
-4. Identifica decisiones abiertas que bloquean scaffolding, seguridad, modelo o contratos; no inventes respuestas.
-5. Propón plan de bootstrap **por repo**: comandos, versiones LTS compatibles, archivos a crear, validaciones y dependencias entre repos. Mantén pipelines y despliegues independientes.
-6. Propón estrategia OpenAPI: generado desde NestJS, clientes web/Flutter fijan versión; no copies modelos a mano.
-7. Presenta checklist ordenado y riesgos, con una estimación orientativa en horas.
+**Prohibitions:** no dependency installation, application creation, file edits, commits/push, Container Registry/Firebase/Cloud Storage, monorepo or microservices. Read-only inspection only. Do not assert tests were run if not observed.
 
-**Prohibiciones:** no instalar dependencias, no crear aplicaciones, no editar archivos, no hacer commits/push, no crear Container Registry/Firebase/Cloud Storage, no introducir monorepo ni microservicios.
+**Output:** actual status of four repositories; findings; unresolved decisions; per-repository plan; proposed commands (not executed); proposed tests; blocking questions; replanning proposal. Technical report in English; business validation questions may be in Spanish.
 
-**Formato de salida:** estado real de los 4 repos; hallazgos; decisiones por resolver; plan por repo; comandos propuestos (sin ejecutar); pruebas propuestas; preguntas bloqueantes.
-
-**Detente y espera mi aprobación.**
-
-**Additional v0.2.0 checks:** Verify `ADR-0003-project-naming.md`, `naming-conventions.md`, `sdd-copilot.md`, `review-gates.md`, `change-control.md`, and `implementation-report-template.md`. Enforce English technical naming. Do not assume the approved workspace layout is already present on disk. The repositories must remain independent; the documentation repository is the functional source of truth.
+**Stop and wait for approval.**

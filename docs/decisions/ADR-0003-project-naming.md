@@ -9,7 +9,7 @@ The product supports brand promoters working inside retail stores. Reception, pr
 - Official product name: **Brand Promoter Management System**.
 - Technical prefix: **`brand-promoter`**; do not append `management` to each repository.
 - Four repositories and workspace as defined in `docs/process/naming-conventions.md`.
-- Technical identifiers in English; Spanish permitted for business/academic/UI content.
+- Technical identifiers in English; Spanish for business/academic/UI content. The accepted v0.3.0 language policy in `docs/process/language-policy.md` extends this decision.
 - Use singular **brand promoter** as a noun modifier in the product name and technical prefix. Collections use plurals where idiomatic.
 
 ## Alternatives

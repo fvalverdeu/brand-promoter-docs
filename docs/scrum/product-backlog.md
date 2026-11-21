@@ -9,7 +9,7 @@
 | 5 | Asignaciones | HU-005 | Como admin quiero asignar promotor a tienda | MVP | HU-002/003 |
 | 6 | Móvil | HU-006 | Como promotor quiero ver mis tiendas asignadas | MVP | HU-001/005 |
 | 7 | Recepciones | HU-007 | Como promotor quiero registrar una recepción | MVP | HU-004/005/006 |
-| 8 | Recepciones | HU-008 | Como admin/promotor quiero consultar receptiones autorizadas | MVP | HU-007 |
+| 8 | Recepciones | HU-008 | Como admin/promotor quiero consultar recepciones autorizadas | MVP | HU-007 |
 | 9 | Auditoría | HU-016 | Como supervisor quiero identificar autor y fecha de operaciones | MVP parcial | HU-007 |
 | 10 | Ubicaciones | HU-010 | Como promotor quiero saber dónde se guardó cada producto | SIDET | modelo ubicaciones |
 | 11 | Movimientos | HU-011 | Como promotor quiero registrar traslados y salidas | SIDET | HU-010 |

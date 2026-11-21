@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0] — 2026-11-21
+- Standardized engineering documentation and AI instructions in English; retained Spanish functional and academic content.
+- Added language policy and bilingual glossary without renaming existing identifiers.
+- Removed duplicate distribution prompts and moved this changelog into the docs repository.
+- Updated Prompt 00 for elapsed milestone and safe read-only bootstrap planning.
+- Preserved scope, stack, stable IDs and draft/approval states; schedule replanning remains pending.
+- Flagged inconsistent assignment route examples for resolution before implementation.
+
 ## [0.2.0] — 2026-11-04
 ### Changed
 - Approved official name **Brand Promoter Management System** and technical prefix `brand-promoter`.

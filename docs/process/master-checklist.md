@@ -1,38 +1,33 @@
-# Checklist maestro Sprint 0
-
-## Documentación
-- [ ] Revisar alcance y validar RF/RNF con Samantha cuando sea posible.
-- [ ] Aprobar decisiones DEC-01 a DEC-08 que bloqueen modelo/API.
-- [ ] Aprobar HU-001, HU-005 y HU-007 y sus CA.
-- [ ] Revisar matriz de trazabilidad y plan de pruebas.
-
+# Sprint 0 master checklist
+## Documentation
+- [ ] Review scope and validate RF/RNF with Samantha when possible.
+- [ ] Approve DEC-01 through DEC-08 where they block model/API.
+- [ ] Approve HU-001, HU-005, HU-007 and acceptance criteria.
+- [ ] Review traceability matrix and test plan.
 ## Git / workspace
-- [ ] Crear `brand-promoter-docs` privado y subir docs + prompts.
-- [ ] Crear `brand-promoter-api` privado con instrucciones locales.
-- [ ] Crear `brand-promoter-web` privado con instrucciones locales.
-- [ ] Crear `brand-promoter-mobile` privado con instrucciones locales.
-- [ ] Crear workspace multi-root y comprobar los cuatro repos.
-- [ ] Configurar `.gitignore`, `.env.example`, convenciones Git.
-
-## Scaffolding (solo tras aprobar prompt 00)
-- [ ] Inicializar NestJS y verificar build/lint.
-- [ ] Inicializar Next.js y verificar build/lint.
-- [ ] Inicializar Flutter y ejecutar test inicial.
-- [ ] Configurar PostgreSQL local y Prisma.
-- [ ] Definir OpenAPI inicial y procedimiento de consumo de clientes.
-- [ ] Documentar comandos reproducibles.
-
+- [ ] Create private `brand-promoter-docs` and push docs + prompts.
+- [ ] Create private `brand-promoter-api` with local instructions.
+- [ ] Create private `brand-promoter-web` with local instructions.
+- [ ] Create private `brand-promoter-mobile` with local instructions.
+- [ ] Create multi-root workspace and check all four repositories.
+- [ ] Configure `.gitignore`, `.env.example`, Git conventions.
+## Scaffolding (only after Prompt 00 approval)
+- [ ] Initialize NestJS and verify build/lint.
+- [ ] Initialize Next.js and verify build/lint.
+- [ ] Initialize Flutter and run initial test.
+- [ ] Configure local PostgreSQL and Prisma.
+- [ ] Define initial OpenAPI and client consumption procedure.
+- [ ] Document reproducible commands.
 ## MVP
-- [ ] HU-001 autenticación.
-- [ ] HU-002/003/004 datos administrativos mínimos.
-- [ ] HU-005 store-assignmentes.
-- [ ] HU-006 consulta móvil.
-- [ ] HU-007 recepción transaccional.
-- [ ] HU-008 consulta administrativa.
-- [ ] Tests críticos y demo reproducible.
-
-## SIDET (no bloquear MVP)
-- [ ] Spec ubicaciones físicas.
-- [ ] Movimientos y existencias operativas.
-- [ ] Cuotas y avances reportados.
-- [ ] Evaluar Container Registry con ADR de despliegue.
+- [ ] HU-001 authentication.
+- [ ] HU-002/003/004 minimum administrative data.
+- [ ] HU-005 store assignments.
+- [ ] HU-006 mobile consultation.
+- [ ] HU-007 transactional reception.
+- [ ] HU-008 administrative consultation.
+- [ ] Critical tests and reproducible demo.
+## SIDET (do not block MVP)
+- [ ] Physical location spec.
+- [ ] Movements and operational stock.
+- [ ] Targets and reported progress.
+- [ ] Evaluate Container Registry with deployment ADR.

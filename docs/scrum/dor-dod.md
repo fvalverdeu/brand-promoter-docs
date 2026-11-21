@@ -1,19 +1,18 @@
 # Definition of Ready (DoR)
-- HU con actor, beneficio y límites claros.
-- CA observables, positivos y negativos.
-- Datos mínimos y permisos definidos.
-- Dependencias y repos afectados identificados.
-- Spec con endpoint/prototipo cuando corresponda.
-- No hay decisiones bloqueantes sin dueño.
-
+- HU with clear actor, benefit and boundaries.
+- Observable positive and negative acceptance criteria.
+- Minimum data and permissions defined.
+- Dependencies and affected repositories identified.
+- Spec with endpoint/prototype where applicable.
+- No blocking decisions without an owner.
 # Definition of Done (DoD)
-- Código revisado; sin secretos ni cambios fuera del alcance.
-- CA satisfechos con evidencia reproducible.
-- Tests unitarios de reglas y tests integración de endpoints críticos aprobados.
-- Validación 401/403/alcance tienda para funciones protegidas.
-- Migraciones y seeds reproducibles cuando aplica.
-- Lint/typecheck/build de app afectada pasan.
-- Documentación, matriz y changelog/estado actualizados.
-- Commit/PR con referencia HU y evidencia; sin defectos bloqueantes.
+- Reviewed code; no secrets or out-of-scope changes.
+- Acceptance criteria met with reproducible evidence.
+- Passing unit tests for rules and integration tests for critical endpoints.
+- 401/403/store-scope validation for protected functions.
+- Reproducible migrations and seeds where applicable.
+- Passing lint/typecheck/build for affected application.
+- Updated documentation, matrix and changelog/status.
+- Commit/PR with HU reference and evidence; no blocking defects.
 
-Para MVP se admite prueba manual móvil documentada; no se permite omitir controles críticos de seguridad o integridad.
+Documented manual mobile testing is acceptable for MVP; critical security and integrity checks cannot be omitted.

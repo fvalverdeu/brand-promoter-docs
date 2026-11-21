@@ -8,14 +8,14 @@ Como administrador, quiero asignar un promotor a una o varias tiendas para habil
 - CA1: admin puede asignar promotor activo a tienda activa.
 - CA2: no se permite duplicar una asignación activa equivalente.
 - CA3: promotor solo consulta tiendas asignadas activas.
-- CA4: promotor no puede crear o modificar store-assignmentes.
+- CA4: promotor no puede crear o modificar asignaciones.
 - CA5: cambios de asignación son trazables.
 
-## Contrato propuesto
+## Proposed contract
 `POST /api/v1/assignments`, `GET /api/v1/me/stores`.
 
-## Pendiente
-Decidir desactivación, vigencia e historial; hasta entonces no programar borrado físico.
+## Pending technical decision
+Decide deactivation, validity and history; do not implement physical deletion until resolved.
 
-## Pruebas
-TC-ASG-01 asignación válida; TC-ASG-02 acceso promotor a tienda no asignada; TC-ASG-03 duplicado.
+## Technical verification
+TC-ASG-01 valid assignment; TC-ASG-02 promoter access to unassigned store; TC-ASG-03 duplicate.

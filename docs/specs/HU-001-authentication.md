@@ -12,11 +12,11 @@ Como usuario activo, quiero iniciar sesión para acceder únicamente a las funci
 - CA5: acceso a función sin rol permitido retorna 403.
 - CA6: respuesta nunca incluye `passwordHash`.
 
-## Contrato propuesto
-`POST /api/v1/auth/login`, `GET /api/v1/auth/me`. Cerrar payload exacto y expiración antes de codificar.
+## Proposed contract
+`POST /api/v1/auth/login`, `GET /api/v1/auth/me`. Finalize exact payload and expiration before coding.
 
-## Pruebas
-Unit: validación de usuario activo, comparación de hash; integración: login 200/401, me 200/401; autorización 403. E2E mínimo web y móvil.
+## Technical verification
+Unit: active user validation, hash comparison; integration: login 200/401, me 200/401; authorization 403. Minimum web and mobile E2E.
 
 ## No incluye
 Recuperación de contraseña, SSO, Firebase Auth.

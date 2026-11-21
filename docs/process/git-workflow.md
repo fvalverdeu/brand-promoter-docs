@@ -1,13 +1,11 @@
-# Git workflow simplificado (adaptado de Tiens)
+# Simplified Git workflow (adapted from Tiens)
+Each repository: protect `main` where possible; branches `feature/HU-007-reception`, `fix/...`, `docs/...`. Avoid `develop` by default for one developer and a short schedule; add it if justified.
+1. Check `git status`, current branch and remote before edits.
+2. Branch from updated `main`.
+3. Use English Conventional Commits with HU: `feat(api): add reception transaction (HU-007)`.
+4. Run tests/lint/build and record evidence.
+5. Small PR with HU/spec link and contract changes.
+6. Merge only after review; do not combine multiple repositories into a fictitious commit.
+7. For cross-repository stories, link issues/PRs and preserve API compatibility.
 
-Cada repo: `main` protegida en lo posible; ramas `feature/HU-007-reception`, `fix/...`, `docs/...`. Evitar `develop` por defecto con un solo desarrollador y plazo corto; puede añadirse si se justifica.
-
-1. Revisar `git status`, rama actual y remoto antes de tocar archivos.
-2. Crear rama desde `main` actualizado.
-3. Commit convencional en inglés con HU: `feat(api): add reception transaction (HU-007)`.
-4. Ejecutar tests/lint/build y registrar evidencia.
-5. PR pequeño con enlace a HU/spec y cambios de contrato.
-6. Merge solo después de revisión; no mezclar cambios de varios repos en un commit ficticio.
-7. Si una HU atraviesa repos, abrir issues/PRs enlazados y mantener compatibilidad de API.
-
-No copiar credenciales, `.env` ni historiales privados de Tiens/IoT.
+Do not copy credentials, `.env` or private histories from Tiens/IoT.

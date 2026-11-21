@@ -1,17 +1,14 @@
-# Estrategia de pruebas — Sprint 0/MVP
-
-| Nivel | Tecnología sugerida | Prioridad |
+# Test strategy — Sprint 0/MVP
+| Level | Suggested technology | Priority |
 |---|---|---|
-| Unitarias API | Jest/Vitest según scaffolding NestJS | Reglas, validaciones, guards |
-| Integración API+DB | NestJS test + PostgreSQL aislado | Recepciones, rollback, store-assignmentes |
-| Contratos | OpenAPI + validación de tipos generados | Compatibilidad web/móvil |
-| Web E2E | Playwright | Alta mínima + asignación + consulta |
-| Flutter | flutter_test y validación manual en Android | Login, tienda, recepción |
-| Seguridad | Tests 401/403 y acceso entre tiendas | Bloqueante |
-| Demo | Guion reproducible con datos sintéticos | Hito 15/11 |
-
-## Evidencia mínima por caso
-ID, fecha, ambiente, commit, datos, pasos, resultado esperado, resultado obtenido, estado (NO EJECUTADO/PASÓ/FALLÓ/BLOQUEADO), evidencia.
-
-## No asumir
-No declarar cobertura o tests exitosos sin ejecución; no usar datos reales de Samantha sin autorización. Semillas de demo sintéticas.
+| API unit | Jest/Vitest depending on NestJS scaffolding | Rules, validation, guards |
+| API+DB integration | NestJS test + isolated PostgreSQL | Receptions, rollback, assignments |
+| Contracts | OpenAPI + generated type validation | Web/mobile compatibility |
+| Web E2E | Playwright | Minimum setup + assignment + consultation |
+| Flutter | flutter_test and manual Android validation | Login, store, reception |
+| Security | 401/403 and cross-store access tests | Blocking |
+| Demo | Reproducible script with synthetic data | Original 15/11 milestone; replanning pending |
+## Minimum evidence per case
+ID, date, environment, commit, data, steps, expected and actual results, status (NOT RUN/PASS/FAIL/BLOCKED), evidence.
+## Do not assume
+Do not claim coverage or passing tests without execution; do not use Samantha's real data without authorization. Use synthetic demo seeds.
